@@ -1,0 +1,376 @@
+{
+  "section": "FN2-FN3",
+  "title": "Function Notation & Graph Characteristics",
+  "learningObjective": "FN2: Use and interpret function notation to evaluate a function for a given input value and find a corresponding input value given an output value. FN3: Use the graph of a function to find the domain and range in interval notation, the x- and y-intercepts, the maxima and minima, and where it is increasing and decreasing using interval notation.",
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What is function notation, and why do we use f(x) instead of y?",
+      "answer": "Function notation replaces y with a label that tells you which function and which input you're using. Writing f(x) instead of y does two things: it names the function (so you can tell f(x) apart from g(x) if you're using more than one), and it keeps the input value visible right in the notation. Once you get comfortable with it, f(x) actually gives you more information than y does."
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "What does f(x) actually mean?",
+      "answer": "f(x) means \"the output of function f when the input is x.\" It's not f times x — there's no multiplication happening. Think of f as a machine: you feed in a value for x, and f(x) is whatever comes out.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Let \\( f(x) = 2x + 3 \\)</p><p class=\"math-line\">To find \\( f(5) \\), replace every \\( x \\) with \\( 5 \\):</p><p class=\"math-line\">\\( f(5) = 2(5) + 3 = 10 + 3 = 13 \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">So the input \\( 5 \\) produces the output \\( 13 \\).</p></div>"
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "What's the difference between evaluating f(a) and solving f(x) = a?",
+      "answer": "These are opposite directions. Evaluating f(a) means you know the input and you're finding the output — plug in a, simplify, get a number. Solving f(x) = a means you know the output and you're finding the input — you're working backward to figure out which x-value(s) produce that result. Same function, opposite question.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Let \\( f(x) = 2x + 3 \\)</p><p class=\"math-line\"><strong>Evaluate</strong> \\( f(4) \\): plug in \\( x=4 \\) &rarr; \\( f(4)=2(4)+3=11 \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\"><strong>Solve</strong> \\( f(x) = 11 \\): set \\( 2x+3=11 \\), so \\( x = 4 \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Same fact, asked two different ways.</p></div>"
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "What is a piecewise function?",
+      "answer": "A piecewise function is built from multiple smaller functions, each one only \"active\" over a specific interval of x-values. To evaluate it at a given x, your first job is figuring out which interval that x falls into — only then do you know which piece (which equation) to actually use.<div class=\"example-box\"><div class=\"label\">Definition</div><p class=\"math-line\">\\[ f(x)=\\begin{cases} x^2+3, & x < 5 \\\\ 9-2x, & x \\geq 5 \\end{cases} \\]</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">This says: use \\( x^2+3 \\) whenever \\( x \\) is less than 5, and switch to \\( 9-2x \\) whenever \\( x \\) is 5 or greater.</p></div><div class=\"graph-wrap\"><svg viewBox=\"0 0 380 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"220\" x2=\"360\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polygon points=\"360,220 350,215 350,225\" fill=\"#94a3b8\"/><text x=\"365\" y=\"224\" font-size=\"12\" fill=\"#4a4a5a\">x</text><line x1=\"200\" y1=\"20\" x2=\"200\" y2=\"230\" stroke=\"#cbd5e1\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"204\" y=\"18\" font-size=\"11\" fill=\"#4a4a5a\">x = 5</text><path d=\"M 60 210 Q 130 205 170 160 Q 190 130 200 110\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"110\" r=\"5\" fill=\"white\" stroke=\"#1a6b6b\" stroke-width=\"2.5\"/><text x=\"70\" y=\"200\" font-size=\"11\" fill=\"#1a6b6b\" font-weight=\"600\">x&#178; + 3 (used when x &lt; 5)</text><line x1=\"200\" y1=\"130\" x2=\"320\" y2=\"190\" stroke=\"#D4622A\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"130\" r=\"5\" fill=\"#D4622A\"/><text x=\"225\" y=\"205\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">9 &minus; 2x (used when x &ge; 5)</text></svg></div><p class=\"graph-caption\">Notice the jump at x = 5: the filled dot shows which piece \"owns\" that exact point. Since the rule says x &ge; 5, the second piece (orange) includes x = 5 — the open teal circle shows the first piece stops just before it.</p><div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Find \\( f(1) \\): since \\( 1 < 5 \\), use the first piece.</p><p class=\"math-line\">\\( f(1) = (1)^2 + 3 = 4 \\)</p><p class=\"math-line\" style=\"margin-top:0.5rem;\">Find \\( f(5) \\): since \\( 5 \\geq 5 \\), use the second piece.</p><p class=\"math-line\">\\( f(5) = 9 - 2(5) = -1 \\)</p></div>"
+    },
+    {
+      "id": "faq-5",
+      "category": "conceptual",
+      "question": "What are x- and y-intercepts?",
+      "answer": "Intercepts are the points where a graph crosses the axes. An x-intercept is where the graph crosses the x-axis (the y-value is 0 there); a y-intercept is where it crosses the y-axis (the x-value is 0 there). Since they're points, always write them as ordered pairs — (x, 0) for x-intercepts, (0, y) for y-intercepts.<div class=\"graph-wrap\"><svg viewBox=\"0 0 360 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"130\" x2=\"340\" y2=\"130\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"20\" x2=\"180\" y2=\"240\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polygon points=\"340,130 330,125 330,135\" fill=\"#94a3b8\"/><polygon points=\"180,20 175,30 185,30\" fill=\"#94a3b8\"/><text x=\"345\" y=\"134\" font-size=\"12\" fill=\"#4a4a5a\">x</text><text x=\"184\" y=\"18\" font-size=\"12\" fill=\"#4a4a5a\">y</text><path d=\"M 70 210 Q 120 40 180 70 Q 240 100 300 210\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"3\"/><circle cx=\"108\" cy=\"130\" r=\"5\" fill=\"#0a3f52\"/><circle cx=\"255\" cy=\"130\" r=\"5\" fill=\"#0a3f52\"/><circle cx=\"180\" cy=\"76\" r=\"5\" fill=\"#1a6b6b\"/><text x=\"90\" y=\"150\" font-size=\"12\" fill=\"#0a3f52\" font-weight=\"600\">(&minus;3, 0)</text><text x=\"240\" y=\"150\" font-size=\"12\" fill=\"#0a3f52\" font-weight=\"600\">(4, 0)</text><text x=\"190\" y=\"70\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"600\">(0, 3)</text></svg></div><p class=\"graph-caption\">This graph has two x-intercepts, (&minus;3, 0) and (4, 0), but only one y-intercept, (0, 3).</p>"
+    },
+    {
+      "id": "faq-6",
+      "category": "conceptual",
+      "question": "What is the domain and range of a graph, and how is that different from finding domain algebraically (like we did in FN1)?",
+      "answer": "The idea is the same — domain is still every possible input, range is still every possible output — but the method changes. In FN1, you found domain by looking at an equation and identifying restrictions (square roots, denominators). Here, you're reading the domain directly off the graph itself: how far left-to-right does the graph stretch (domain), and how far bottom-to-top does it stretch (range)?<div class=\"graph-wrap\"><svg viewBox=\"0 0 380 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"220\" x2=\"360\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"240\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"20\" width=\"220\" height=\"200\" fill=\"#e6f2f2\" opacity=\"0.5\"/><path d=\"M 90 190 Q 160 60 200 90 Q 260 130 310 60\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><circle cx=\"90\" cy=\"190\" r=\"5\" fill=\"#0a3f52\"/><circle cx=\"310\" cy=\"60\" r=\"5\" fill=\"#0a3f52\"/><line x1=\"90\" y1=\"225\" x2=\"310\" y2=\"225\" stroke=\"#D4622A\" stroke-width=\"3\"/><text x=\"160\" y=\"240\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">Domain: [&minus;2, 6]</text><line x1=\"45\" y1=\"60\" x2=\"45\" y2=\"190\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><text x=\"-45\" y=\"125\" font-size=\"11\" fill=\"#1a6b6b\" font-weight=\"600\" transform=\"rotate(-90, 20, 125)\">Range: [1, 7]</text></svg></div><p class=\"graph-caption\">The orange bar under the graph marks the domain (left-right spread); the teal bar to the left marks the range (up-down spread).</p>"
+    },
+    {
+      "id": "faq-7",
+      "category": "conceptual",
+      "question": "What does it mean for a function to be increasing or decreasing?",
+      "answer": "A function is increasing where the y-values go up as the x-values go up — reading the graph left to right, it's climbing. It's decreasing where the y-values go down as x increases — the graph is falling. These are always described using x-values (the interval on the x-axis), not y-values."
+    },
+    {
+      "id": "faq-8",
+      "category": "conceptual",
+      "question": "What's the difference between a local max/min and a global max/min?",
+      "answer": "A global max is the single highest point on the entire graph; a global min is the single lowest point on the entire graph — there's only one of each (if they exist at all). A local max or min is a \"hilltop\" or \"valley\" — a point that's higher (or lower) than its immediate neighbors, even if it's not the highest or lowest point overall. A graph can have several local maxes and mins, but at most one global max and one global min.<div class=\"graph-wrap\"><svg viewBox=\"0 0 380 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"220\" x2=\"360\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polygon points=\"360,220 350,215 350,225\" fill=\"#94a3b8\"/><path d=\"M 30 150 Q 70 60 110 90 Q 150 120 180 100 Q 220 75 250 30 Q 290 70 330 190\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><circle cx=\"110\" cy=\"90\" r=\"5\" fill=\"#1a6b6b\"/><text x=\"70\" y=\"80\" font-size=\"11\" fill=\"#1a6b6b\" font-weight=\"600\">Local max</text><circle cx=\"180\" cy=\"100\" r=\"5\" fill=\"#FFD166\" stroke=\"#4a4a5a\" stroke-width=\"1\"/><text x=\"150\" y=\"130\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\">Local min</text><circle cx=\"250\" cy=\"30\" r=\"6\" fill=\"#D4622A\"/><text x=\"255\" y=\"24\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"700\">Global max</text><circle cx=\"330\" cy=\"190\" r=\"6\" fill=\"#D4622A\"/><text x=\"270\" y=\"215\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"700\">Global min</text></svg></div><p class=\"graph-caption\">The tallest point on the whole graph is the global max; the lowest point overall is the global min. The smaller bumps in between are only local.</p>"
+    },
+    {
+      "id": "faq-9",
+      "category": "sticking-points",
+      "question": "How do I evaluate something like f(x + h) when the input is an expression, not a number?",
+      "answer": "Same process as evaluating f(5) — you're still just plugging the input in for every x in the function's rule. The only difference is your input is now an expression instead of a number, so you substitute (x + h) everywhere you see x, then simplify using algebra (often expanding a binomial or distributing).<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Let \\( f(x) = x^2 + 3x \\). Find \\( f(x+h) \\).</p><p class=\"math-line\">Replace every \\( x \\) with \\( (x+h) \\):</p><p class=\"math-line\">\\( f(x+h) = (x+h)^2 + 3(x+h) \\)</p><p class=\"math-line\">\\( = x^2 + 2xh + h^2 + 3x + 3h \\)</p></div>"
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "How do I know which piece to use in a piecewise function?",
+      "answer": "Find the x-value you're evaluating, then check which interval condition it satisfies. Go through the pieces one at a time and ask: \"does my x-value fit this piece's condition?\" Once you find the interval that matches, use only that piece's equation — ignore the others completely."
+    },
+    {
+      "id": "faq-11",
+      "category": "sticking-points",
+      "question": "How do I read domain and range directly off a graph, in interval notation?",
+      "answer": "For domain, scan the graph left to right and note the smallest and largest x-values the graph actually reaches. For range, scan bottom to top and note the smallest and largest y-values. Use brackets [ ] if the graph includes that endpoint (solid dot) and parentheses ( ) if it doesn't (open circle, or the graph extends to infinity).<div class=\"graph-wrap\"><svg viewBox=\"0 0 380 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"220\" x2=\"360\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"240\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><path d=\"M 100 200 Q 160 50 220 80 Q 280 110 320 40\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><circle cx=\"100\" cy=\"200\" r=\"5\" fill=\"#0a3f52\"/><circle cx=\"320\" cy=\"40\" r=\"5\" fill=\"white\" stroke=\"#0a3f52\" stroke-width=\"2.5\"/><text x=\"70\" y=\"245\" font-size=\"11\" fill=\"#4a4a5a\">Domain: [&minus;1, 7) &mdash; solid dot included, open circle excluded</text></svg></div><p class=\"graph-caption\">Solid dot at the left end means that x-value is included (bracket); the open circle at the right means that x-value is NOT included (parenthesis).</p>"
+    },
+    {
+      "id": "faq-12",
+      "category": "sticking-points",
+      "question": "Why can a function have multiple x-intercepts but only one y-intercept?",
+      "answer": "This connects directly back to the function definition from FN1. Multiple x-intercepts just means the graph crosses the x-axis at multiple points — that's allowed, since different x-values can have different y-values. But if a graph had two different y-intercepts, that would mean x = 0 has two different outputs — which breaks the function rule and means it isn't a function at all."
+    },
+    {
+      "id": "faq-13",
+      "category": "sticking-points",
+      "question": "How do I find increasing/decreasing intervals from a graph?",
+      "answer": "Trace the graph with your finger from left to right. Wherever your finger is moving upward, that's an interval of increase; wherever it's moving downward, that's an interval of decrease. Write your answer using the x-values only, and use parentheses (not brackets) at the turning points, since the function isn't still increasing or decreasing exactly at that peak or valley.<div class=\"graph-wrap\"><svg viewBox=\"0 0 380 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"220\" x2=\"360\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><polygon points=\"360,220 350,215 350,225\" fill=\"#94a3b8\"/><text x=\"365\" y=\"224\" font-size=\"12\" fill=\"#4a4a5a\">x</text><path d=\"M 40 190 Q 130 30 190 40 Q 260 55 340 190\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><circle cx=\"190\" cy=\"40\" r=\"5\" fill=\"#D4622A\"/><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"220\" stroke=\"#D4622A\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/><text x=\"196\" y=\"35\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">x = 2</text><path d=\"M 60 200 L 160 65\" stroke=\"#1a6b6b\" stroke-width=\"2.5\" marker-end=\"url(#arrowGreen13)\" fill=\"none\"/><text x=\"60\" y=\"238\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"600\">Increasing: (&minus;&infin;, 2)</text><path d=\"M 220 65 L 320 200\" stroke=\"#D4622A\" stroke-width=\"2.5\" marker-end=\"url(#arrowOrange13)\" fill=\"none\"/><text x=\"210\" y=\"255\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"600\">Decreasing: (2, &infin;)</text><defs><marker id=\"arrowGreen13\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#1a6b6b\"/></marker><marker id=\"arrowOrange13\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#D4622A\"/></marker></defs></svg></div><p class=\"graph-caption\">The graph climbs until x = 2, then falls — so it's increasing on (&minus;&infin;, 2) and decreasing on (2, &infin;).</p>"
+    },
+    {
+      "id": "faq-14",
+      "category": "sticking-points",
+      "question": "How do I tell a local minimum from a global minimum on a graph?",
+      "answer": "Ask yourself: is this the lowest point compared to just its nearby neighbors (local), or is it the lowest point on the whole graph (global)? Every global minimum is automatically also a local minimum, but not every local minimum is the global minimum — there might be a lower point somewhere else on the graph."
+    },
+    {
+      "id": "faq-15",
+      "category": "sticking-points",
+      "question": "What happens if a graph doesn't have a global max or min at all?",
+      "answer": "This happens when the graph keeps climbing (or falling) forever without ever leveling off — think of a graph that shoots up toward infinity. In that case, you simply say \"there is no global maximum\" (or minimum). It's a completely valid answer — don't force a number where one doesn't exist.<div class=\"graph-wrap\"><svg viewBox=\"0 0 380 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"220\" x2=\"360\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"240\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><path d=\"M 90 220 Q 150 210 190 150 Q 240 80 300 25\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><polygon points=\"300,25 292,35 305,38\" fill=\"#0a3f52\"/><text x=\"250\" y=\"20\" font-size=\"11\" fill=\"#4a4a5a\" font-style=\"italic\">graph keeps rising forever &rarr;</text><circle cx=\"120\" cy=\"180\" r=\"5\" fill=\"#FFD166\" stroke=\"#4a4a5a\" stroke-width=\"1\"/><text x=\"70\" y=\"205\" font-size=\"11\" fill=\"#4a4a5a\" font-weight=\"600\">Local min only</text></svg></div><p class=\"graph-caption\">This graph has a local minimum, but since it climbs forever to the right, there is no global maximum.</p>"
+    },
+    {
+      "id": "faq-16",
+      "category": "sticking-points",
+      "question": "How is solving f(x) = value different when I'm given a graph versus an equation?",
+      "answer": "With an equation, you solve algebraically. With a graph, you're looking for where the height of the graph (the y-value) equals that target value — draw a horizontal line at that height and see where it crosses the graph. Each crossing point gives you one x-value answer. A graph can have multiple crossing points, meaning multiple valid answers.<div class=\"graph-wrap\"><svg viewBox=\"0 0 380 260\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"220\" x2=\"360\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"240\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><path d=\"M 70 200 Q 140 40 200 90 Q 260 130 330 50\" fill=\"none\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"60\" y1=\"110\" x2=\"340\" y2=\"110\" stroke=\"#D4622A\" stroke-width=\"2\" stroke-dasharray=\"5,4\"/><text x=\"280\" y=\"105\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">y = k</text><circle cx=\"120\" cy=\"110\" r=\"5\" fill=\"#D4622A\"/><circle cx=\"175\" cy=\"110\" r=\"5\" fill=\"#D4622A\"/><circle cx=\"295\" cy=\"110\" r=\"5\" fill=\"#D4622A\"/><text x=\"90\" y=\"235\" font-size=\"11\" fill=\"#4a4a5a\">Three crossing points &rarr; f(x) = k has three solutions</text></svg></div><p class=\"graph-caption\">The dashed horizontal line at height k crosses the graph three times, so f(x) = k has three x-value solutions.</p>"
+    },
+    {
+      "id": "faq-17",
+      "category": "connections",
+      "question": "How does function notation (FN2) connect back to what we learned about functions in FN1?",
+      "answer": "FN1 taught you how to recognize whether something is a function. FN2 gives you the language to actually work with functions once you've identified them. f(x) is just a more powerful way of writing the y you were already using — everything about domain, inputs, and outputs still applies, just with clearer notation."
+    },
+    {
+      "id": "faq-18",
+      "category": "connections",
+      "question": "Why does understanding a graph's behavior (FN3) matter for what's coming later in the course?",
+      "answer": "Reading graphs — intercepts, domain, range, increasing/decreasing, max/min — is a skill you'll use constantly for the rest of precalculus and into calculus. Every new family of functions you study (polynomial, rational, exponential, trigonometric) will ask you to describe its graph using these exact same tools. This section is building a vocabulary you'll rely on all semester."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Introduction to Function Notation (L9.2)",
+      "url": "https://youtu.be/P3KGT66S7fA",
+      "description": "An introduction to function notation and how it's used to represent functions.",
+      "category": "notation",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-2"
+      ]
+    },
+    {
+      "id": "vid-2",
+      "title": "Function Notation",
+      "url": "https://youtu.be/zfO5j0pbe0A",
+      "description": "The basics of reading and writing function notation.",
+      "category": "notation",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-2"
+      ]
+    },
+    {
+      "id": "vid-3",
+      "title": "Evaluating Functions Using Function Notation (L9.3)",
+      "url": "https://youtu.be/Ehkzu5Uv7O0",
+      "description": "How to substitute a value into a function and evaluate the output.",
+      "category": "evaluation",
+      "relatedFaqs": [
+        "faq-2",
+        "faq-3"
+      ]
+    },
+    {
+      "id": "vid-4",
+      "title": "Ex 1: Determine Function Values Given a Quadratic Function",
+      "url": "https://www.youtube.com/watch?v=y_huYIAOeYs",
+      "description": "Worked example evaluating a quadratic function at several input values.",
+      "category": "evaluation",
+      "relatedFaqs": [
+        "faq-2"
+      ]
+    },
+    {
+      "id": "vid-5",
+      "title": "Ex 1: Determine a Function Value From a Graph",
+      "url": "https://www.youtube.com/watch?v=HRCD79-uXKo",
+      "description": "How to read a function value directly off a graph.",
+      "category": "evaluation",
+      "relatedFaqs": [
+        "faq-16"
+      ]
+    },
+    {
+      "id": "vid-6",
+      "title": "Ex 2: Determine a Function Value From a Graph",
+      "url": "https://www.youtube.com/watch?v=aCb5uxjJDhw",
+      "description": "A second worked example reading function values from a graph.",
+      "category": "evaluation",
+      "relatedFaqs": [
+        "faq-16"
+      ]
+    },
+    {
+      "id": "vid-7",
+      "title": "Ex: Given a Graph and a Function Value, Determine the Input (x-Value)",
+      "url": "https://www.youtube.com/watch?v=_tTdoR1E5fg",
+      "description": "Working backward from an output to find the input using a graph — solving f(x) = value graphically.",
+      "category": "evaluation",
+      "relatedFaqs": [
+        "faq-3",
+        "faq-16"
+      ]
+    },
+    {
+      "id": "vid-8",
+      "title": "Ex 1: Graph a Piecewise Defined Function",
+      "url": "https://youtu.be/meW0iSSPZ4c",
+      "description": "How to graph a piecewise function by graphing each piece over its own interval.",
+      "category": "piecewise",
+      "relatedFaqs": [
+        "faq-4",
+        "faq-10"
+      ]
+    },
+    {
+      "id": "vid-9",
+      "title": "Ex: Determine Function Values for a Piecewise Defined Function",
+      "url": "https://youtu.be/E2F2-gP-2qU",
+      "description": "Practice evaluating a piecewise function at different input values.",
+      "category": "piecewise",
+      "relatedFaqs": [
+        "faq-4",
+        "faq-10"
+      ]
+    },
+    {
+      "id": "vid-10",
+      "title": "Ex 3: Determine a Function Value From a Piecewise Defined Graph",
+      "url": "https://www.youtube.com/watch?v=XvY2bSi0O5w",
+      "description": "Reading function values from the graph of a piecewise function.",
+      "category": "piecewise",
+      "relatedFaqs": [
+        "faq-4",
+        "faq-10"
+      ]
+    },
+    {
+      "id": "vid-11",
+      "title": "Ex: State the X and Y Intercepts Given the Graph of a Line",
+      "url": "https://www.youtube.com/watch?v=m5eQ_SjLVuw",
+      "description": "How to identify and state the x- and y-intercepts from a graph.",
+      "category": "graph-features",
+      "relatedFaqs": [
+        "faq-5",
+        "faq-12"
+      ]
+    },
+    {
+      "id": "vid-12",
+      "title": "Ex 1: Determine the Domain and Range of the Graph of a Function",
+      "url": "https://www.youtube.com/watch?v=QAxZEelInJc",
+      "description": "Reading domain and range directly from a graph and writing in interval notation.",
+      "category": "graph-features",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-11"
+      ]
+    },
+    {
+      "id": "vid-13",
+      "title": "Ex 2: Determine the Domain and Range of the Graph of a Function",
+      "url": "https://www.youtube.com/watch?v=nnU1KRvde_M",
+      "description": "A second worked example finding domain and range from a graph.",
+      "category": "graph-features",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-11"
+      ]
+    },
+    {
+      "id": "vid-14",
+      "title": "Determine Where a Function is Increasing and Decreasing",
+      "url": "https://www.youtube.com/watch?v=78b4HOMVcKM",
+      "description": "How to identify increasing and decreasing intervals directly from a graph.",
+      "category": "behavior",
+      "relatedFaqs": [
+        "faq-7",
+        "faq-13"
+      ]
+    },
+    {
+      "id": "vid-15",
+      "title": "Determine if a Function is Increasing, Decreasing, or Constant",
+      "url": "https://youtu.be/4G8A-o4VYSo",
+      "description": "Practice classifying intervals of a graph, table, or set of ordered pairs as increasing, decreasing, or constant.",
+      "category": "behavior",
+      "relatedFaqs": [
+        "faq-7",
+        "faq-13"
+      ]
+    },
+    {
+      "id": "vid-16",
+      "title": "Determine Key Characteristics of a Function Over a Closed Interval",
+      "url": "https://youtu.be/9faDir0y88I",
+      "description": "Putting it all together: intercepts, domain/range, increasing/decreasing, and local max/min from one graph.",
+      "category": "behavior",
+      "relatedFaqs": [
+        "faq-8",
+        "faq-14",
+        "faq-15"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "Is This a Function?",
+      "url": "https://functionornot.netlify.app/",
+      "description": "Swipe-sort relations shown as ordered pairs, tables, graphs, mapping diagrams, and equations into Function / Not a Function, with instant feedback.",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-2"
+      ]
+    },
+    {
+      "id": "app-2",
+      "title": "Domain & Range Master",
+      "url": "https://domainrange.netlify.app",
+      "description": "Practice identifying domain and range from graphs, tables, and equations with instant feedback.",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-11"
+      ]
+    },
+    {
+      "id": "app-3",
+      "title": "Inequality Explorer",
+      "url": "https://inequalitynotation.netlify.app",
+      "description": "Build fluency converting between inequality notation and interval notation.",
+      "relatedFaqs": [
+        "faq-11"
+      ]
+    },
+    {
+      "id": "app-4",
+      "title": "Graph Detective",
+      "url": "https://graphdetective.netlify.app/",
+      "description": "Investigate mystery graphs like a detective — find intercepts, mark domain and range, trace increasing/decreasing intervals, and spot local vs. global extrema.",
+      "relatedFaqs": [
+        "faq-5",
+        "faq-6",
+        "faq-7",
+        "faq-8",
+        "faq-11",
+        "faq-12",
+        "faq-13",
+        "faq-14",
+        "faq-15",
+        "faq-16"
+      ]
+    }
+  ],
+  "prompts": {
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Build Fluency with Function Notation",
+        "prompt": "I'm learning function notation in precalculus. Can you give me a function like f(x), then ask me to evaluate it at three different input values one at a time, checking my work after each one? Start easy and get slightly harder each time. If I make a mistake, don't just give me the answer — ask me a guiding question first."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Understand Piecewise Functions",
+        "prompt": "I'm learning about piecewise functions. Can you give me a piecewise function with two or three pieces, and walk me through how to decide which piece to use for a specific input value? Then give me three inputs to practice on my own, and check my reasoning for each one — especially at the boundary value where the pieces meet."
+      },
+      {
+        "id": "prompt-3",
+        "title": "Read a Graph Like a Precalculus Student",
+        "prompt": "I'm practicing reading graphs of functions. Describe a graph to me in words (don't show me an image) — its shape, where it starts and ends, and any turning points. Then ask me to identify the domain, range, x- and y-intercepts, and the intervals where it's increasing or decreasing, one at a time. Check my answers and explain any I get wrong."
+      },
+      {
+        "id": "prompt-4",
+        "title": "Local vs. Global Extrema Practice",
+        "prompt": "I'm trying to understand the difference between local and global maximums and minimums. Describe three different graphs to me — one with only local extrema and no global extrema, one with a clear global max and min, and one that's more ambiguous. For each, ask me to identify all the local and global extrema before you tell me the answer."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect FN2 and FN3 to the Bigger Picture",
+        "prompt": "I just learned function notation (evaluating functions, piecewise functions) and how to read key features from a graph (intercepts, domain, range, increasing/decreasing, local and global extrema). Can you explain how these two skills work together, and give me one example of a real-world function where reading its graph tells a meaningful story?"
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Create Your Own",
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Sections FN2 (Function Notation) or FN3 (Graph Characteristics). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+      }
+    ]
+  }
+}
