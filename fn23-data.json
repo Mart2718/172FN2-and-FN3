@@ -372,5 +372,230 @@
         "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Sections FN2 (Function Notation) or FN3 (Graph Characteristics). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
       }
     ]
+  },
+  "path": {
+    "sectionLabel": "FN2, Function Notation",
+    "heading": "Missed class, or not sure where to start?",
+    "intro": "Work through these stops from top to bottom. They build to the FN2 check: evaluating functions from formulas, piecewise definitions, and graphs. Each stop takes about 10–15 minutes.",
+    "scopeNote": "This path covers FN2 (Function Notation). An FN3 path is coming soon; for now, use the FAQs, Apps, and Videos tabs for FN3.",
+    "graphs": {
+      "A": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 408 304\" width=\"408\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graph of g: straight line segments connecting the points (-6, -2), (-3, 4), (1, 0), (4, 6), (6, 4).\"><line class=\"g-grid\" x1=\"22\" y1=\"282\" x2=\"22\" y2=\"22\"/><line class=\"g-grid\" x1=\"48\" y1=\"282\" x2=\"48\" y2=\"22\"/><line class=\"g-grid\" x1=\"74\" y1=\"282\" x2=\"74\" y2=\"22\"/><line class=\"g-grid\" x1=\"100\" y1=\"282\" x2=\"100\" y2=\"22\"/><line class=\"g-grid\" x1=\"126\" y1=\"282\" x2=\"126\" y2=\"22\"/><line class=\"g-grid\" x1=\"152\" y1=\"282\" x2=\"152\" y2=\"22\"/><line class=\"g-grid\" x1=\"178\" y1=\"282\" x2=\"178\" y2=\"22\"/><line class=\"g-grid\" x1=\"204\" y1=\"282\" x2=\"204\" y2=\"22\"/><line class=\"g-grid\" x1=\"230\" y1=\"282\" x2=\"230\" y2=\"22\"/><line class=\"g-grid\" x1=\"256\" y1=\"282\" x2=\"256\" y2=\"22\"/><line class=\"g-grid\" x1=\"282\" y1=\"282\" x2=\"282\" y2=\"22\"/><line class=\"g-grid\" x1=\"308\" y1=\"282\" x2=\"308\" y2=\"22\"/><line class=\"g-grid\" x1=\"334\" y1=\"282\" x2=\"334\" y2=\"22\"/><line class=\"g-grid\" x1=\"360\" y1=\"282\" x2=\"360\" y2=\"22\"/><line class=\"g-grid\" x1=\"386\" y1=\"282\" x2=\"386\" y2=\"22\"/><line class=\"g-grid\" x1=\"22\" y1=\"282\" x2=\"386\" y2=\"282\"/><line class=\"g-grid\" x1=\"22\" y1=\"256\" x2=\"386\" y2=\"256\"/><line class=\"g-grid\" x1=\"22\" y1=\"230\" x2=\"386\" y2=\"230\"/><line class=\"g-grid\" x1=\"22\" y1=\"204\" x2=\"386\" y2=\"204\"/><line class=\"g-grid\" x1=\"22\" y1=\"178\" x2=\"386\" y2=\"178\"/><line class=\"g-grid\" x1=\"22\" y1=\"152\" x2=\"386\" y2=\"152\"/><line class=\"g-grid\" x1=\"22\" y1=\"126\" x2=\"386\" y2=\"126\"/><line class=\"g-grid\" x1=\"22\" y1=\"100\" x2=\"386\" y2=\"100\"/><line class=\"g-grid\" x1=\"22\" y1=\"74\" x2=\"386\" y2=\"74\"/><line class=\"g-grid\" x1=\"22\" y1=\"48\" x2=\"386\" y2=\"48\"/><line class=\"g-grid\" x1=\"22\" y1=\"22\" x2=\"386\" y2=\"22\"/><line class=\"g-axis\" x1=\"22\" y1=\"204\" x2=\"386\" y2=\"204\"/><line class=\"g-axis\" x1=\"204\" y1=\"282\" x2=\"204\" y2=\"22\"/><text class=\"g-label\" x=\"22\" y=\"218\" text-anchor=\"middle\">&#8722;7</text><text class=\"g-label\" x=\"48\" y=\"218\" text-anchor=\"middle\">&#8722;6</text><text class=\"g-label\" x=\"74\" y=\"218\" text-anchor=\"middle\">&#8722;5</text><text class=\"g-label\" x=\"100\" y=\"218\" text-anchor=\"middle\">&#8722;4</text><text class=\"g-label\" x=\"126\" y=\"218\" text-anchor=\"middle\">&#8722;3</text><text class=\"g-label\" x=\"152\" y=\"218\" text-anchor=\"middle\">&#8722;2</text><text class=\"g-label\" x=\"178\" y=\"218\" text-anchor=\"middle\">&#8722;1</text><text class=\"g-label\" x=\"230\" y=\"218\" text-anchor=\"middle\">1</text><text class=\"g-label\" x=\"256\" y=\"218\" text-anchor=\"middle\">2</text><text class=\"g-label\" x=\"282\" y=\"218\" text-anchor=\"middle\">3</text><text class=\"g-label\" x=\"308\" y=\"218\" text-anchor=\"middle\">4</text><text class=\"g-label\" x=\"334\" y=\"218\" text-anchor=\"middle\">5</text><text class=\"g-label\" x=\"360\" y=\"218\" text-anchor=\"middle\">6</text><text class=\"g-label\" x=\"386\" y=\"218\" text-anchor=\"middle\">7</text><text class=\"g-label\" x=\"199\" y=\"286\" text-anchor=\"end\">&#8722;3</text><text class=\"g-label\" x=\"199\" y=\"260\" text-anchor=\"end\">&#8722;2</text><text class=\"g-label\" x=\"199\" y=\"234\" text-anchor=\"end\">&#8722;1</text><text class=\"g-label\" x=\"199\" y=\"182\" text-anchor=\"end\">1</text><text class=\"g-label\" x=\"199\" y=\"156\" text-anchor=\"end\">2</text><text class=\"g-label\" x=\"199\" y=\"130\" text-anchor=\"end\">3</text><text class=\"g-label\" x=\"199\" y=\"104\" text-anchor=\"end\">4</text><text class=\"g-label\" x=\"199\" y=\"78\" text-anchor=\"end\">5</text><text class=\"g-label\" x=\"199\" y=\"52\" text-anchor=\"end\">6</text><text class=\"g-label\" x=\"199\" y=\"26\" text-anchor=\"end\">7</text><polyline class=\"g-line\" points=\"48,256 126,100 230,204 308,48 360,100\"/><circle class=\"g-dot\" cx=\"48\" cy=\"256\" r=\"4\"/><circle class=\"g-dot\" cx=\"360\" cy=\"100\" r=\"4\"/><text class=\"g-name\" x=\"28\" y=\"38\" text-anchor=\"start\">y = g(x)</text></svg></div>",
+      "B": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 356 304\" width=\"356\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graph of h: straight line segments connecting the points (-5, 3), (-2, -3), (0, -1), (3, 5), (5, 1).\"><line class=\"g-grid\" x1=\"22\" y1=\"282\" x2=\"22\" y2=\"22\"/><line class=\"g-grid\" x1=\"48\" y1=\"282\" x2=\"48\" y2=\"22\"/><line class=\"g-grid\" x1=\"74\" y1=\"282\" x2=\"74\" y2=\"22\"/><line class=\"g-grid\" x1=\"100\" y1=\"282\" x2=\"100\" y2=\"22\"/><line class=\"g-grid\" x1=\"126\" y1=\"282\" x2=\"126\" y2=\"22\"/><line class=\"g-grid\" x1=\"152\" y1=\"282\" x2=\"152\" y2=\"22\"/><line class=\"g-grid\" x1=\"178\" y1=\"282\" x2=\"178\" y2=\"22\"/><line class=\"g-grid\" x1=\"204\" y1=\"282\" x2=\"204\" y2=\"22\"/><line class=\"g-grid\" x1=\"230\" y1=\"282\" x2=\"230\" y2=\"22\"/><line class=\"g-grid\" x1=\"256\" y1=\"282\" x2=\"256\" y2=\"22\"/><line class=\"g-grid\" x1=\"282\" y1=\"282\" x2=\"282\" y2=\"22\"/><line class=\"g-grid\" x1=\"308\" y1=\"282\" x2=\"308\" y2=\"22\"/><line class=\"g-grid\" x1=\"334\" y1=\"282\" x2=\"334\" y2=\"22\"/><line class=\"g-grid\" x1=\"22\" y1=\"282\" x2=\"334\" y2=\"282\"/><line class=\"g-grid\" x1=\"22\" y1=\"256\" x2=\"334\" y2=\"256\"/><line class=\"g-grid\" x1=\"22\" y1=\"230\" x2=\"334\" y2=\"230\"/><line class=\"g-grid\" x1=\"22\" y1=\"204\" x2=\"334\" y2=\"204\"/><line class=\"g-grid\" x1=\"22\" y1=\"178\" x2=\"334\" y2=\"178\"/><line class=\"g-grid\" x1=\"22\" y1=\"152\" x2=\"334\" y2=\"152\"/><line class=\"g-grid\" x1=\"22\" y1=\"126\" x2=\"334\" y2=\"126\"/><line class=\"g-grid\" x1=\"22\" y1=\"100\" x2=\"334\" y2=\"100\"/><line class=\"g-grid\" x1=\"22\" y1=\"74\" x2=\"334\" y2=\"74\"/><line class=\"g-grid\" x1=\"22\" y1=\"48\" x2=\"334\" y2=\"48\"/><line class=\"g-grid\" x1=\"22\" y1=\"22\" x2=\"334\" y2=\"22\"/><line class=\"g-axis\" x1=\"22\" y1=\"178\" x2=\"334\" y2=\"178\"/><line class=\"g-axis\" x1=\"178\" y1=\"282\" x2=\"178\" y2=\"22\"/><text class=\"g-label\" x=\"22\" y=\"192\" text-anchor=\"middle\">&#8722;6</text><text class=\"g-label\" x=\"48\" y=\"192\" text-anchor=\"middle\">&#8722;5</text><text class=\"g-label\" x=\"74\" y=\"192\" text-anchor=\"middle\">&#8722;4</text><text class=\"g-label\" x=\"100\" y=\"192\" text-anchor=\"middle\">&#8722;3</text><text class=\"g-label\" x=\"126\" y=\"192\" text-anchor=\"middle\">&#8722;2</text><text class=\"g-label\" x=\"152\" y=\"192\" text-anchor=\"middle\">&#8722;1</text><text class=\"g-label\" x=\"204\" y=\"192\" text-anchor=\"middle\">1</text><text class=\"g-label\" x=\"230\" y=\"192\" text-anchor=\"middle\">2</text><text class=\"g-label\" x=\"256\" y=\"192\" text-anchor=\"middle\">3</text><text class=\"g-label\" x=\"282\" y=\"192\" text-anchor=\"middle\">4</text><text class=\"g-label\" x=\"308\" y=\"192\" text-anchor=\"middle\">5</text><text class=\"g-label\" x=\"334\" y=\"192\" text-anchor=\"middle\">6</text><text class=\"g-label\" x=\"173\" y=\"286\" text-anchor=\"end\">&#8722;4</text><text class=\"g-label\" x=\"173\" y=\"260\" text-anchor=\"end\">&#8722;3</text><text class=\"g-label\" x=\"173\" y=\"234\" text-anchor=\"end\">&#8722;2</text><text class=\"g-label\" x=\"173\" y=\"208\" text-anchor=\"end\">&#8722;1</text><text class=\"g-label\" x=\"173\" y=\"156\" text-anchor=\"end\">1</text><text class=\"g-label\" x=\"173\" y=\"130\" text-anchor=\"end\">2</text><text class=\"g-label\" x=\"173\" y=\"104\" text-anchor=\"end\">3</text><text class=\"g-label\" x=\"173\" y=\"78\" text-anchor=\"end\">4</text><text class=\"g-label\" x=\"173\" y=\"52\" text-anchor=\"end\">5</text><text class=\"g-label\" x=\"173\" y=\"26\" text-anchor=\"end\">6</text><polyline class=\"g-line\" points=\"48,100 126,256 178,204 256,48 308,152\"/><circle class=\"g-dot\" cx=\"48\" cy=\"100\" r=\"4\"/><circle class=\"g-dot\" cx=\"308\" cy=\"152\" r=\"4\"/><text class=\"g-name\" x=\"28\" y=\"38\" text-anchor=\"start\">y = h(x)</text></svg></div>"
+    },
+    "stages": [
+      {
+        "stage": "Get ready",
+        "desc": "Two quick skills this section leans on. Skip any you already have.",
+        "stops": [
+          {
+            "id": "g1",
+            "title": "Substitute a negative number",
+            "target": "Substitute a negative number into an expression and simplify using order of operations.",
+            "cold": "Evaluate \\(x^2 - 4x\\) when \\(x = -3\\).",
+            "coldPlain": "Evaluate x^2 - 4x when x = -3.",
+            "coldA": "\\(21\\). Put the negative in parentheses: \\((-3)^2 - 4(-3) = 9 + 12 = 21\\).",
+            "solution": "(-3)^2 - 4(-3) = 9 - (-12) = 9 + 12 = 21",
+            "mistake": "Writing -3^2 = -9 instead of (-3)^2 = 9, or losing the sign in -4(-3).",
+            "again": "Evaluate \\(\\sqrt{2x^2 + 1}\\) when \\(x = -2\\).",
+            "againA": "\\(3\\). \\(\\sqrt{2(-2)^2 + 1} = \\sqrt{8 + 1} = \\sqrt{9} = 3\\).",
+            "reflect": "Why do parentheses matter when you substitute a negative number?",
+            "related": [
+              {
+                "label": "FAQs",
+                "tab": "tab-faq"
+              },
+              {
+                "label": "Videos",
+                "tab": "tab-videos"
+              }
+            ]
+          },
+          {
+            "id": "g2",
+            "title": "Read an inequality",
+            "target": "Decide whether a number belongs to an interval like \\(-5 < x \\le 2\\), paying attention to \\(<\\) versus \\(\\le\\).",
+            "cold": "Which of these numbers satisfy \\(-5 < x \\le 2\\)? \\(\\;-5,\\; 0,\\; 2,\\; 3\\)",
+            "coldPlain": "Which of these numbers satisfy -5 < x <= 2 ?  -5, 0, 2, 3",
+            "coldA": "\\(0\\) and \\(2\\). The \\(\\le\\) includes \\(2\\); the \\(<\\) leaves out \\(-5\\); \\(3\\) is too big.",
+            "solution": "-5 < x <= 2 means x is bigger than -5 (not equal) and at most 2 (equal is allowed). So 0 and 2 work; -5 fails because the left sign is strict; 3 is too big.",
+            "mistake": "Treating < and <= as the same, especially at the endpoints.",
+            "again": "Which of these numbers satisfy \\(1 \\le x < 5\\)? \\(\\;0,\\; 1,\\; 4.5,\\; 5\\)",
+            "againA": "\\(1\\) and \\(4.5\\). The \\(\\le\\) includes \\(1\\); the \\(<\\) leaves out \\(5\\).",
+            "reflect": "In your own words, what is the difference between \\(<\\) and \\(\\le\\) at an endpoint?",
+            "related": [
+              {
+                "label": "FAQs",
+                "tab": "tab-faq"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": "Learn the skills",
+        "desc": "One stop per skill on the FN2 check, in order.",
+        "stops": [
+          {
+            "id": "t1",
+            "title": "Read function notation",
+            "target": "Explain what \\(f(a) = b\\) means: \\(a\\) is the input, \\(b\\) is the output, and \\((a, b)\\) is a point on the graph.",
+            "cold": "If \\(f(4) = 10\\), what is the input, what is the output, and what point is on the graph of \\(f\\)?",
+            "coldPlain": "If f(4) = 10, what is the input, what is the output, and what point is on the graph of f?",
+            "coldA": "Input \\(4\\), output \\(10\\), point \\((4, 10)\\). The number inside the parentheses is always the input.",
+            "solution": "In f(4) = 10, the input is 4 (inside the parentheses) and the output is 10. The point on the graph is (4, 10). f(4) does not mean f times 4.",
+            "mistake": "Reading f(4) as \"f times 4,\" or swapping input and output when writing the point.",
+            "again": "You know \\(g(-2) = 5\\) and \\(g(5) = 1\\). Write the two points on the graph of \\(g\\).",
+            "againA": "\\((-2, 5)\\) and \\((5, 1)\\). Input first, output second.",
+            "reflect": "How can you tell which number is the input just by looking at the notation?",
+            "related": [
+              {
+                "label": "FAQs",
+                "tab": "tab-faq"
+              },
+              {
+                "label": "Videos",
+                "tab": "tab-videos"
+              }
+            ]
+          },
+          {
+            "id": "t2",
+            "title": "Evaluate from a formula",
+            "target": "Find \\(f(a)\\) by replacing every \\(x\\) in the formula with \\(a\\), including formulas with square roots and fractions.",
+            "cold": "Let \\(f(x) = 3x^2 - 4x + 1\\). Find \\(f(-2)\\).",
+            "coldPlain": "Let f(x) = 3x^2 - 4x + 1. Find f(-2).",
+            "coldA": "\\(21\\). \\(3(-2)^2 - 4(-2) + 1 = 12 + 8 + 1 = 21\\).",
+            "solution": "f(-2) = 3(-2)^2 - 4(-2) + 1 = 3(4) + 8 + 1 = 21",
+            "mistake": "Replacing only some of the x's, or dropping the parentheses around -2.",
+            "again": "Let \\(h(x) = \\sqrt{3x^2 + 1}\\). Find \\(h(-4)\\).",
+            "againA": "\\(7\\). \\(\\sqrt{3(-4)^2 + 1} = \\sqrt{48 + 1} = \\sqrt{49} = 7\\).",
+            "stretch": "Let \\(k(x) = \\dfrac{x + 4}{2x^2 + 1}\\). Find \\(k(-3)\\).",
+            "stretchA": "\\(\\dfrac{1}{19}\\). \\(\\dfrac{-3 + 4}{2(9) + 1} = \\dfrac{1}{19}\\).",
+            "reflect": "What is the one move you make every time, no matter what the formula looks like?",
+            "related": [
+              {
+                "label": "FAQs",
+                "tab": "tab-faq"
+              },
+              {
+                "label": "Videos",
+                "tab": "tab-videos"
+              },
+              {
+                "label": "Apps",
+                "tab": "tab-apps"
+              }
+            ]
+          },
+          {
+            "id": "t3",
+            "title": "Evaluate a piecewise function",
+            "target": "Evaluate a piecewise function by first deciding which piece the input belongs to, especially at the boundary.",
+            "cold": "Let \\(f(x) = \\begin{cases} x^2 + 3x & -5 < x \\le 1 \\\\ \\sqrt{2x^2 + 7} & 1 < x < 5 \\end{cases}\\)<br>Find \\(f(-2)\\), \\(f(1)\\), and \\(f(3)\\).",
+            "coldPlain": "Let f(x) be piecewise: f(x) = x^2 + 3x when -5 < x <= 1, and f(x) = sqrt(2x^2 + 7) when 1 < x < 5. Find f(-2), f(1), and f(3).",
+            "coldA": "\\(f(-2) = 4 - 6 = -2\\) (top piece). \\(f(1) = 1 + 3 = 4\\) (top piece, because of the \\(\\le\\)). \\(f(3) = \\sqrt{18 + 7} = 5\\) (bottom piece).",
+            "solution": "Step 1 is always: which piece? -2 is in -5 < x <= 1, so f(-2) = (-2)^2 + 3(-2) = 4 - 6 = -2. 1 is also in -5 < x <= 1 (the <= includes 1), so f(1) = 1 + 3 = 4. 3 is in 1 < x < 5, so f(3) = sqrt(2(9) + 7) = sqrt(25) = 5.",
+            "mistake": "Using the wrong piece at the boundary x = 1, or plugging the input into both pieces.",
+            "again": "Let \\(g(x) = \\begin{cases} \\dfrac{4x - 1}{x^2 + 1} & -5 < x < 0 \\\\ 2x^2 - x & 0 \\le x < 5 \\end{cases}\\)<br>Find \\(g(-1)\\), \\(g(0)\\), and \\(g(2)\\).",
+            "againA": "\\(g(-1) = \\dfrac{-5}{2}\\) (top piece). \\(g(0) = 0\\) (bottom piece, because the \\(\\le\\) is there). \\(g(2) = 8 - 2 = 6\\) (bottom piece).",
+            "reflect": "At a boundary value, how do you decide which piece to use?",
+            "related": [
+              {
+                "label": "FAQs",
+                "tab": "tab-faq"
+              },
+              {
+                "label": "Videos",
+                "tab": "tab-videos"
+              }
+            ]
+          },
+          {
+            "id": "t4",
+            "title": "Find an output from a graph",
+            "target": "Find \\(g(a)\\) from a graph: go to \\(x = a\\), move up or down to the graph, and read the \\(y\\)-value.",
+            "cold": "Use the graph of \\(g\\) to find \\(g(-4)\\).[[graph:A]]",
+            "coldPlain": "Use the graph of g to find g(-4).",
+            "graphNote": "The graph of g is made of straight line segments connecting the points (-6, -2), (-3, 4), (1, 0), (4, 6), (6, 4), and it only exists on the interval [-6, 6].",
+            "coldA": "\\(2\\). Start at \\(x = -4\\) on the \\(x\\)-axis, move up to the graph, and read across: \\(y = 2\\).",
+            "solution": "Go to x = -4, move vertically to the graph, and read the height: the segment from (-6, -2) to (-3, 4) rises 2 for every 1 to the right, so at x = -4 the height is -2 + 2(2) = 2. g(-4) = 2.",
+            "mistake": "Starting on the y-axis at -4 instead of the x-axis.",
+            "again": "Use the same graph to find \\(g(3)\\) and \\(g(0)\\).[[graph:A]]",
+            "againA": "\\(g(3) = 4\\) and \\(g(0) = 1\\).",
+            "reflect": "Which axis do you start on when you are given the input?",
+            "related": [
+              {
+                "label": "FAQs",
+                "tab": "tab-faq"
+              },
+              {
+                "label": "Videos",
+                "tab": "tab-videos"
+              },
+              {
+                "label": "Apps",
+                "tab": "tab-apps"
+              }
+            ]
+          },
+          {
+            "id": "t5",
+            "title": "Find every input from an output",
+            "target": "Given an output \\(b\\), find every \\(x\\) with \\(g(x) = b\\): draw the horizontal line \\(y = b\\) and read each crossing.",
+            "cold": "For which \\(x\\)-value(s) in \\([-6, 6]\\) does \\(g(x) = 4\\)?[[graph:A]]",
+            "coldPlain": "For which x-value(s) in the interval [-6, 6] does g(x) = 4?",
+            "graphNote": "The graph of g is made of straight line segments connecting the points (-6, -2), (-3, 4), (1, 0), (4, 6), (6, 4), and it only exists on the interval [-6, 6].",
+            "coldA": "\\(x = -3,\\; 3,\\; 6\\). The line \\(y = 4\\) touches the graph three times. Don't forget the endpoint at \\(x = 6\\).",
+            "solution": "Draw the horizontal line y = 4 and find every place it meets the graph: at the peak (-3, 4), on the rising segment at (3, 4), and at the right endpoint (6, 4). So x = -3, 3, 6.",
+            "mistake": "Stopping after the first answer, or reading 4 on the x-axis and finding g(4) instead.",
+            "again": "For which \\(x\\)-value(s) in \\([-6, 6]\\) does \\(g(x) = 1\\)?[[graph:A]]",
+            "againA": "\\(x = -4.5,\\; 0,\\; 1.5\\). Answers don't have to be whole numbers: each segment has slope \\(\\pm1\\) or \\(\\pm2\\), so crossings can land halfway between grid lines.",
+            "stretch": "Without a graph: let \\(h(x) = 5x + 7\\). Find \\(x\\) so that \\(h(x) = -8\\).",
+            "stretchA": "\\(x = -3\\). Set \\(5x + 7 = -8\\), so \\(5x = -15\\). Check: \\(h(-3) = -8\\) ✓",
+            "reflect": "How is \"find \\(g(4)\\)\" different from \"find \\(x\\) so that \\(g(x) = 4\\)\"?",
+            "related": [
+              {
+                "label": "FAQs",
+                "tab": "tab-faq"
+              },
+              {
+                "label": "Videos",
+                "tab": "tab-videos"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "stage": "Put it together",
+        "desc": "A practice check in the same format as the FN2 CheckIt exercise.",
+        "stops": [
+          {
+            "id": "f1",
+            "title": "Practice check",
+            "target": "Evaluate a piecewise function and read a graph both ways, the way the FN2 check asks.",
+            "cold": "<strong>Part A.</strong> Let \\(p(x) = \\begin{cases} 2x^2 - 3 & -5 < x < -1 \\\\ \\sqrt{3x^2 + 1} & -1 \\le x < 5 \\end{cases}\\)<br>Find \\(p(-3)\\), \\(p(-1)\\), and \\(p(4)\\).<br><br><strong>Part B.</strong> Let \\(h(x)\\) be the function graphed below. Find \\(h(1)\\). For which \\(x\\)-value(s) in \\([-5, 5]\\) does \\(h(x) = 3\\)?[[graph:B]]",
+            "coldPlain": "Part A: p(x) = 2x^2 - 3 when -5 < x < -1, and p(x) = sqrt(3x^2 + 1) when -1 <= x < 5. Find p(-3), p(-1), p(4). Part B: using the graph of h, find h(1), and find every x in [-5, 5] with h(x) = 3.",
+            "graphNote": "The graph of h is made of straight line segments connecting the points (-5, 3), (-2, -3), (0, -1), (3, 5), (5, 1), and it only exists on the interval [-5, 5].",
+            "coldA": "<strong>A.</strong> \\(p(-3) = 15\\), \\(p(-1) = 2\\) (bottom piece), \\(p(4) = 7\\).<br><strong>B.</strong> \\(h(1) = 1\\). \\(h(x) = 3\\) when \\(x = -5,\\; 2,\\; 4\\).",
+            "solution": "A: -3 is in -5 < x < -1, so p(-3) = 2(9) - 3 = 15. -1 is in -1 <= x < 5, so p(-1) = sqrt(3 + 1) = 2. p(4) = sqrt(48 + 1) = 7. B: h(1) = 1 (on the segment from (0, -1) to (3, 5)). The line y = 3 meets the graph at the left endpoint (-5, 3), at (2, 3), and at (4, 3), so x = -5, 2, 4.",
+            "mistake": "Using the wrong piece at x = -1, missing an endpoint answer, or mixing up \"find h(1)\" with \"find x where h(x) = 3\".",
+            "again": "<strong>Part A.</strong> Let \\(q(x) = \\begin{cases} x^3 - 2x & -5 < x \\le 0 \\\\ \\dfrac{x + 2}{x^2 + 1} & 0 < x < 5 \\end{cases}\\)<br>Find \\(q(-2)\\), \\(q(0)\\), and \\(q(3)\\).<br><br><strong>Part B.</strong> Use the graph of \\(g\\) from earlier. Find \\(g(-1)\\). For which \\(x\\)-value(s) in \\([-6, 6]\\) does \\(g(x) = 5\\)?[[graph:A]]",
+            "againA": "<strong>A.</strong> \\(q(-2) = -8 + 4 = -4\\), \\(q(0) = 0\\), \\(q(3) = \\dfrac{5}{10} = \\dfrac{1}{2}\\).<br><strong>B.</strong> \\(g(-1) = 2\\). \\(g(x) = 5\\) when \\(x = 3.5\\) and \\(x = 5\\). (The left segment tops out at \\(4\\), so it never reaches \\(5\\).)",
+            "reflect": "Which part of the check do you want to practice more before the real one?",
+            "related": [
+              {
+                "label": "FAQs",
+                "tab": "tab-faq"
+              },
+              {
+                "label": "AI Prompts",
+                "tab": "tab-prompts"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
