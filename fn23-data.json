@@ -434,7 +434,7 @@
         },
         {
           "stage": "Learn the skills",
-          "desc": "One stop per skill on the FN2 check, in order.",
+          "desc": "One stop per skill on the FN2 check, in order, plus one homework skill: evaluating at an expression and solving.",
           "stops": [
             {
               "id": "t1",
@@ -473,6 +473,35 @@
               "stretch": "Let \\(k(x) = \\dfrac{x + 4}{2x^2 + 1}\\). Find \\(k(-3)\\).",
               "stretchA": "\\(\\dfrac{1}{19}\\). \\(\\dfrac{-3 + 4}{2(9) + 1} = \\dfrac{1}{19}\\).",
               "reflect": "What is the one move you make every time, no matter what the formula looks like?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "t2b",
+              "title": "Evaluate at an expression, then solve",
+              "target": "Find \\(f(a+1)\\) by putting the whole expression in for \\(x\\), and find every \\(x\\) with \\(f(x) = c\\) by setting the formula equal to \\(c\\) and solving.",
+              "cold": "Let \\(p(x) = x^2 - 5\\). (a) Find \\(p(3)\\). (b) Find and simplify \\(p(a + 2)\\). (c) Find every input \\(x\\) for which \\(p(x) = 4\\).",
+              "coldPlain": "Let p(x) = x^2 - 5. (a) Find p(3). (b) Find and simplify p(a + 2). (c) Find every input x for which p(x) = 4.",
+              "coldA": "(a) \\(4\\). (b) \\(a^2 + 4a - 1\\). The whole expression \\(a + 2\\) replaces \\(x\\), in parentheses: \\((a + 2)^2 - 5\\). (c) \\(x = -3\\) or \\(x = 3\\). Notice that (a) already gave you one answer to (c), since \\(p(3) = 4\\). The word <em>every</em> is your cue to look for the other one.",
+              "solution": "(a) p(3) = 3^2 - 5 = 9 - 5 = 4. (b) p(a + 2) = (a + 2)^2 - 5 = (a^2 + 4a + 4) - 5 = a^2 + 4a - 1. (c) Set x^2 - 5 = 4, so x^2 = 9, so x = 3 or x = -3. Check: p(-3) = 9 - 5 = 4.",
+              "mistake": "In (b), writing p(a) + 2 = a^2 - 3, or squaring (a + 2) as a^2 + 4 instead of a^2 + 4a + 4. In (c), giving only x = 3 and missing x = -3.",
+              "again": "Let \\(q(x) = 2x^2 + 1\\). (a) Find \\(q(-2)\\). (b) Find and simplify \\(q(a - 3)\\). (c) Find every input \\(x\\) for which \\(q(x) = 19\\).",
+              "againA": "(a) \\(9\\). \\(2(-2)^2 + 1 = 8 + 1 = 9\\). (b) \\(2a^2 - 12a + 19\\). \\(2(a - 3)^2 + 1 = 2(a^2 - 6a + 9) + 1\\). Square first, then multiply by 2. (c) \\(x = -3\\) or \\(x = 3\\). \\(2x^2 + 1 = 19\\), so \\(x^2 = 9\\).",
+              "stretch": "<em>Extension</em> (a preview of calculus): let \\(r(x) = x^2 - 4x\\). Find and simplify \\(r(a + h) - r(a)\\).",
+              "stretchA": "\\(2ah + h^2 - 4h\\). \\(r(a + h) = a^2 + 2ah + h^2 - 4a - 4h\\). Subtracting \\(r(a) = a^2 - 4a\\) cancels \\(a^2\\) and \\(-4a\\). In calculus you will divide this by \\(h\\) to find a slope.",
+              "reflect": "How is finding \\(p(3)\\) different from finding every \\(x\\) with \\(p(x) = 4\\)? Which one can have more than one answer, and why?",
               "related": [
                 {
                   "label": "FAQs",
