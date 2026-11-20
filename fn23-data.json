@@ -286,6 +286,27 @@
         "faq-14",
         "faq-15"
       ]
+    },
+    {
+      "id": "vid-17",
+      "title": "Given an Inequality, Graph and Give Interval Notation",
+      "url": "https://youtu.be/BKhDzNKjVBc",
+      "description": "A quick review of turning an inequality into interval notation, the skill you need before writing domain, range, and increasing/decreasing intervals from a graph.",
+      "category": "graph-features",
+      "relatedFaqs": [
+        "faq-11"
+      ]
+    },
+    {
+      "id": "vid-18",
+      "title": "Ex: Increasing / Decreasing / Relative Extrema from Analyzing a Graph",
+      "url": "https://youtu.be/wjC3RBnrtqU",
+      "description": "Reads increasing and decreasing intervals and the relative (local) maximums and minimums from a graph, written as points.",
+      "category": "behavior",
+      "relatedFaqs": [
+        "faq-8",
+        "faq-14"
+      ]
     }
   ],
   "apps": [
